@@ -1,5 +1,5 @@
 {
-    "name": "adunsulag/openemr-module-installer-plugin",
+    "name": "openemr/oe-module-installer-plugin",
     "description": "OpenEMR Module Installer plugin for installing custom modules into the OpenEMR codebase.",
     "type": "composer-plugin",
     "license": "GPL-3.0",
