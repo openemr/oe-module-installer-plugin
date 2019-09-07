@@ -8,13 +8,13 @@ For Custom Modules
 /** composer.json ***/
 {
     "name": "openemr/SomeCustomModule",
-    "type": "openemr-zend-module",
+    "type": "openemr-module",
     "require": {
         "openemr/oe-module-installer-plugin": "^0.1.0"
     }
 }
 ```
-The above module will install in the *interface/modules/zend/modules/SomeCustomModule/* directory
+The above module will install in the *interface/modules/custom_modules/SomeCustomModule/* directory
 
 For Zend Framework Modules
 
@@ -28,4 +28,4 @@ For Zend Framework Modules
     }
 }
 ```
-The above module will install in the *interface/modules/custom_modules/SomeCustomModule/* directory
+The above module will install in the *interface/modules/zend/modules/SomeCustomModule/* directory
